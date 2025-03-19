@@ -24,7 +24,7 @@ function openNav() {
       <use xlink:href="#s-text" class="text-copy"></use>
     </g>
   </svg>
-  <span>version 1.1</span>
+  <span>version 1.2 add Ukr</span>
     `;
     document.getElementById("myNav").style.width = "100%";
   }
