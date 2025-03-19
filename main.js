@@ -27,7 +27,7 @@ function showPhrase() {
 
 function updateCounter() {
   const remainingPhrases = shuffledPhrases.length - currentIndex - 1;
-  counterElement.innerHTML = `Залишилось фраз: <span class="counter-number">${remainingPhrases}</span>`;
+  counterElement.innerHTML = `Phrases left: <span class="counter-number">${remainingPhrases}</span>`;
 }
 
 // Дії при натисканні кнопки "Далі"
@@ -49,7 +49,7 @@ function nextPhrase() {
     showPhrase();
   } else {
     // Закінчили всі фрази
-    console.log("Ви переглянули всі фрази!");
+    console.log("You've reviewed all the phrases!");
     currentIndex = 0; // Якщо потрібно перезапустити
     shuffleArray(shuffledPhrases); // Перемішуємо масив знову
     showPhrase(); // Починаємо спочатку
