@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Фрази The Last of Us</title>
+  <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+
+    <span class="open-btn" onclick="openNav()">About</span>
+
+    <!-- Меню overlay -->
+    <div id="myNav" class="overlay">
+
+      <a class="closebtn" onclick="closeNav()">&times;</a>
+      <h3>No Pun Intended:)</h3>
+      <div class="overlay-content" id="menuContent">
+      </div>
+    </div>
+
+    <div id="background"></div>
+  <div>
+    <h1 id="phrase"></h1>
+    <h2 id="translation"></h2>
+  </div>
+
+  <button id="next">Далі</button>
+  <p id="counter"></p>
+  <script src="inst.js"></script>
+  <script type="module" src="main.js"></script>
+
+</body>
+</html>
